@@ -1,13 +1,13 @@
 package Rakesh;
 
-public class Demo {
+public class Reverse {
 	public static void main(String[] arg)
 	{
 		String s = "java";
-		for(int i=0; i<=s.length()-1; i++)
+		for(int i=s.length()-1; i>=0; i--)
 		{
 			char ch = s.charAt(i);
-			System.out.println(ch);
+			System.out.print(ch);
 		}
 	}
 
